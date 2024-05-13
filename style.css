@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+body {
+  background: #fae0d0;
+}
+.container {
+  background: #fff;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: -10px;
+  color: #862e61;
+}
+h2 {
+  margin-top: 15px;
+  color: #862e61;
+  font-size: 19px;
+  margin-bottom: 15px;
+  margin-left: -5px;
+}
+p {
+  font-size: 12px;
+  color: #5f5f5f;
+}
+.info {
+  background: #fff7ff;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+ol {
+  margin-left: 10px;
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+ol li::marker,
+ul li::marker,
+.values {
+  color: #862e61;
+  font-weight: bold;
+}
+ol li,
+ol b {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+li {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+table {
+  width: 90%;
+  margin-top: 5px;
+}
+td,
+th {
+  border-bottom: 1px solid;
+  padding: 10px;
+  padding-left: 25px;
+}
+.nutri {
+  width: 500px;
+  margin-left: 30px;
+}
+.values {
+  position: relative;
+  left: -2px;
+  width: 250px;
+}
+.active {
+  border-bottom: none;
+}
+hr {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
